@@ -16,7 +16,7 @@ class TruckTest {
     private Logger logger = Logger.getLogger(TruckTest.class.getName());
 
     @Test
-    void truckWithStubEngine() {
+    void truckStartingAndStoppingWithStubEngine() {
         logger.info("Testing truck starting and stopping");
         Truck truck = new Truck(new MercedesBenzEngine());
         truck.start();
