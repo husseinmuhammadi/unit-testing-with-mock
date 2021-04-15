@@ -13,7 +13,7 @@ import static org.mockito.Mockito.when;
 
 class TruckTest {
 
-    private Logger logger = Logger.getLogger(TruckTest.class.getName());
+    private final Logger logger = Logger.getLogger(TruckTest.class.getName());
 
     @Test
     void truckStartingAndStoppingWithStubEngine() {
