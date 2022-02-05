@@ -22,7 +22,9 @@
     </properties>
 
     <modules>
+        <module>0.testing-template</module>
         <module>1.test-class-best-practice</module>
+        <module>2.junit-life-cycle-methods</module>
         <module>mock</module>
         <module>unit-testing-with-junit-4</module>
         <module>junit-platform</module>
