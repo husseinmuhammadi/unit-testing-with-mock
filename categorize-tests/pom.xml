@@ -5,29 +5,22 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.javastudio.tutorial.testing</groupId>
         <artifactId>testing-parent</artifactId>
+        <groupId>com.javastudio.tutorial.testing</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>unit-testing-with-mock</artifactId>
-    <packaging>jar</packaging>
+    <artifactId>categorize-tests</artifactId>
 
     <build>
         <finalName>demo</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>3.2.0</version>
+                <artifactId>maven-surefire-plugin</artifactId>
                 <configuration>
-                    <archive>
-                        <manifest>
-                            <addClasspath>true</addClasspath>
-                            <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.javastudio.tutorial.testing.Application</mainClass>
-                        </manifest>
-                    </archive>
+                    <groups>local</groups>
+                    <excludedGroups>cloud</excludedGroups>
                 </configuration>
             </plugin>
         </plugins>
