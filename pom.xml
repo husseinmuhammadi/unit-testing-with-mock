@@ -31,6 +31,7 @@
         <module>mock</module>
         <module>unit-testing-with-junit-4</module>
         <module>junit-platform</module>
+        <module>code-coverage</module>
     </modules>
 
     <dependencyManagement>
