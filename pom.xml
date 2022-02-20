@@ -33,6 +33,7 @@
         <module>junit-platform</module>
         <module>code-coverage</module>
         <module>argument-captor</module>
+        <module>general-unit-teting</module>
     </modules>
 
     <dependencyManagement>
