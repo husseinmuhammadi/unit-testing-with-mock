@@ -34,6 +34,7 @@
         <module>code-coverage</module>
         <module>argument-captor</module>
         <module>general-unit-teting</module>
+        <module>junit-jupiter-extensions</module>
     </modules>
 
     <dependencyManagement>
